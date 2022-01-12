@@ -67,7 +67,7 @@ def main2(Ids = ['0000','0002']):
     if mode == "denoised":
         im_path_dir = 'denoised_im/'
 
-    for id in ['0000','0000']:
+    for id in ['0000', '0000']:
         image = []
         for i in range(4):
             im_path = im_path_dir+id +str(0)+'.png'
